@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="p233"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-30 12:46:46 "/>
+        <attribute name="created" value="cDIzMztQMjMzLVBDOzIwMjEtMDQtMzA7IjEyOjE4OjQ0ICI7MTg3NQ=="/>
+        <attribute name="edited" value="cDIzMztQMjMzLVBDOzIwMjEtMDQtMzA7IjEyOjQ2OjQ2ICI7MjsxOTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, soma" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <output expression="(nota1+nota2+nota3+nota4)" newline="True"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
