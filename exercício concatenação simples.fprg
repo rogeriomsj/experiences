@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="p233"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-02 01:19:31 "/>
+        <attribute name="created" value="cDIzMztQMjMzLVBDOzIwMjEtMDUtMDI7IjEyOjQyOjM3ICI7MTg3NA=="/>
+        <attribute name="edited" value="cDIzMztQMjMzLVBDOzIwMjEtMDUtMDI7IjAxOjE5OjMxICI7MTsxOTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, m&#233;dia" type="Real" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="sobrenome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="m&#233;dia" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Seu nome &#233; &quot; &amp; nome &amp; &quot; Seu sobrenome &#233; &quot; &amp; sobrenome &amp; &quot; Sua m&#233;dia &#233;: &quot; &amp; m&#233;dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

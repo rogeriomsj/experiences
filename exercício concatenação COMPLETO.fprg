@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="p233"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-02 01:45:57 "/>
+        <attribute name="created" value="cDIzMztQMjMzLVBDOzIwMjEtMDUtMDI7IjEyOjQyOjM3ICI7MTg3NA=="/>
+        <attribute name="edited" value="cDIzMztQMjMzLVBDOzIwMjEtMDUtMDI7IjAxOjQ1OjU3ICI7MjsxOTg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, idade, m&#233;dia" type="Real" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="sobrenome"/>
+            <input variable="idade"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="m&#233;dia" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Seu nome &#233; &quot; &amp; nome &amp; &quot; Seu sobrenome &#233; &quot; &amp; sobrenome &amp; &quot; Sua idade &#233; &quot; &amp; idade" newline="True"/>
+            <output expression="&quot;Sua m&#233;dia &#233;: &quot; &amp; m&#233;dia" newline="True"/>
+            <if expression="m&#233;dia&gt;=7">
+                <then>
+                    <output expression="&quot;Voc&#234; foi APROVADO!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; foi REPROVADO!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
